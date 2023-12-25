@@ -1,0 +1,303 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Diego Camargo</title>
+    <link rel="stylesheet" href="./style.css">
+    <link rel="icon" href="./Assets/logoMyfavicon.png">
+</head>
+
+<body>
+    <nav id="nav">
+
+       <img src="./Assets/icons8-menú.svg" alt="" class="img-menu-mobile">
+        
+        <div class="barnav">
+            <img src="./Assets/6917673_preview.png " alt="" class="logo">
+            <ul class="items">
+                <li class="item">
+                    <a href="#home" class="selected" >Home</a>
+                </li>
+                <li class="item">
+                    <a href="#profile" class="selected1">Profile</a>
+                </li>
+                <li class="item">
+                    <a href="#proyects">Projects</a>
+                </li>
+                <li class="item">
+                    <a href="#contact">Contact</a>
+                </li>
+                <li class="btn-login">
+                    <a href="">Login</a>
+                </li>
+            </ul>  
+        </div>  
+        
+        <div class="mobile-menu inactive">
+            <ul>
+                <img src="./Assets/icons8-eliminar.svg" alt="" class="icon-close">
+                <li>
+                    <a href="">Home</a>
+                </li>
+                <li>
+                    <a href="">Profile</a>
+                </li>
+                <li>
+                    <a href="">Projects</a>
+                </li>
+                <li> 
+                    <a href="">Contact</a>
+                </li>
+                <li class="btn-login-mobile">
+                    <a href="">Login</a>
+                </li>
+            </ul>
+        </div>
+
+    </nav>
+
+    <section id="inicio" class="star">
+        <h2>Home</h2>
+        <div class="informacion">
+            <div class="container-principal">
+                <div class="texto">
+                    <h1>Hi, I´m Diego Camargo</h1>
+                    <p>Estudiante de Platzi, Developer apasioando por el desarrollo y en constante aprendizaje</p>
+                    <a href="" class="button">
+                            Más sobre mí             
+                    </a>
+                </div>      
+                <div class="info">
+                    <div class="my_info">
+                            <div class="contactos">
+                                <i class=""></i>
+                                <img src="./Assets/png-transparent-gmail-new-logo-icon.png" alt="">
+                                <div>
+                                    <h3>Email</h3>
+                                    <span>diegocamargo331@gmail.com</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="my_info">
+                            <div class="contactos">
+                                <i class=""></i>
+                                <img src="./Assets/github-logo-2E3852456C-seeklogo.com.png" alt="">
+                                <div>
+                                    <h3 class="">GitHub</h3>
+                                    <span class="">XXXXXXXX</span>
+                                </div>
+                            </div>
+                    </div>
+                    <div class="my_info">
+                            <div class="contactos">
+                                <i class=""></i>
+                                <img src="./Assets/images.png" alt="">
+                                <div>
+                                    <h3 class="">LinKed</h3>
+                                    <span class="">XXXXXXXX</span>
+                                </div>
+                            </div>
+                    </div>
+                </div> 
+            </div>                 
+            <div id="photo-perfil">
+                <div class="photo-inactive1 inactive"></div>
+                <div class="photo-inactive2  inactive"></div>
+                <div class="photo-inactive3 "></div>
+                <div class="points">
+                    <li class="points-active1"></li>
+                    <li class="points-active2"></li>
+                    <li class="points-active3"></li>
+                </div>
+            </div>
+        </div>  
+              
+    </section>
+
+    <section class="acerca_de_mi profile" id="Perfil">
+        <h2 data-heading="Mi Perfil">Profile</h2>
+        <div class="acerca_de_mi_container">
+                <div class="detalles-texto">
+                    <h3 class="">Hola, soy desing Ux y Ui, vivo en Bogota Colombia</h3>
+                    <p class="">Estudiante del Sena, Técnico en asistencia contable manejaba nominas, macros, etc. En la actualidad me interese por el tema de la programación</p>                     
+                </div>
+                <div class="casillas">
+                    <article class="casilla-aprobado"> 
+                            <button id="botenes-perfil" class="logo-css">
+                                <img src="./Assets/icons8-css-100.png" alt="">
+                                <h3>CSS</h3>
+                            </button>
+                            <img src="./Assets/icons8-clasificar-abajo-48.png" id="flecha-abajo1" alt="">
+                    </article>
+                    <div class="casilla-aprobado"> 
+                            <button id="botenes-perfil" class="logo-js">
+                                <img src="./Assets/icons8-js-100.png" alt="">
+                                <h3>JS</h3>
+                            </button>
+                            <img src="./Assets/icons8-clasificar-abajo-48.png" id="flecha-abajo2" alt="">
+                    </div>
+                    <div class="casilla-aprobado"> 
+                            <button id="botenes-perfil" class="logo-backend">
+                                <img src="./Assets/icons8-backend-100.png" alt="">
+                                <h3>BACKEND</h3>
+                            </button>
+                            <img src="./Assets/icons8-clasificar-abajo-48.png" id="flecha-abajo3" alt="">
+                    </div>
+                    <div class="casilla-aprobado"> 
+                        <button id="botenes-perfil" class="logo-excel">
+                            <img src="./Assets/file_type_excel_icon_130611.png" alt="">
+                            <h3>EXCEL</h3>
+                        </button>
+                        <img src="./Assets/icons8-clasificar-abajo-48.png" id="flecha-abajo4" alt="">
+                    </div>
+                </div>
+        </div>    
+            <aside id="css" class="css inactive">
+                <div id="aprobadosCss" class="cursos-plz1">
+             <!--   <img src="./Assets/Fronter_Developer.png" alt="">
+                    <img src="./Assets/Fronter_Developer_Practico.png" alt="">
+                    <img src="./Assets/Programacion_Basica.png" alt=""> -->
+                </div> 
+            </aside>
+            <aside id="js" class="js inactive">  
+                <div class="cursos-plz2">
+          <!--      <img src="./Assets/JS_Basico.png" alt="">
+                    <img src="./Assets/JS_Practico.png" alt="">
+                    <img src="./Assets/Programacion_Basica.png" alt="">
+                    <img src="./Assets/Closures&Scope.png" alt="">
+                    <img src="./Assets/Engine_V8.png" alt="">
+                    <img src="./Assets/Asincronismo_con_Js.png" alt=""> -->
+                </div>     
+            </aside>
+            <aside id="backend" class="backend inactive">
+                <div class="cursos-plz3">
+           <!--     <img src="Assets/Programacion_Basica.png" alt="">
+                    <img src="" alt=""> -->
+                </div>  
+            </aside> 
+            <aside id="excel" class="excel inactive">
+                <div class="cursos-plz4">
+                </div>  
+            </aside> 
+        </div>    
+    </section>
+
+    <section id="portafolio" class="portafolio">
+        <h2>Projects</h2>
+            <div class="contenedor-detail-portafolio1 inactive">
+                <aside id="detail-portafolio-cards1" class="detail-portafolio1">
+                    <div class="" id="">
+                        <img src="./Assets/icons8-eliminar.svg" alt="" class="cerrar-details1">
+                    </div>
+           <!--     <img src="./Assets/gjkdrtg.png" alt="" class="img-detail-portafolio">
+                    <div class="text-detail-portafolio" id="">
+                        <h3>xxxxx</h3>
+                        <p>kkkkkkkkk</p>
+                        <span class="">view
+                            <a href="" target="_blank">Click here</a>
+                        </span>
+                    </div> -->
+                </aside> 
+            </div>
+            <div class="contenedor-detail-portafolio2 inactive">
+                <aside id="detail-portafolio-cards2" class="detail-portafolio2">
+                    <div class="" id="">
+                        <img src="./Assets/icons8-eliminar.svg" alt="" class="cerrar-details2">
+                    </div>
+            </div>
+
+            <div class="contenedor-detail-portafolio3 inactive">
+                <aside id="detail-portafolio-cards3" class="detail-portafolio3">
+                    <div class="" id="">
+                        <img src="./Assets/icons8-eliminar.svg" alt="" class="cerrar-details3">
+                    </div>
+            </div>
+<a ></a>
+            <div class="contenedor-detail-portafolio4 inactive">
+                <aside id="detail-portafolio-cards4" class="detail-portafolio4">
+                    <div class="" id="">
+                        <img src="./Assets/icons8-eliminar.svg" alt="" class="cerrar-details4">
+                    </div>
+            </div>
+
+            <div class="contenedor-detail-portafolio5 inactive">
+                <aside id="detail-portafolio-cards5" class="detail-portafolio5">
+                    <div class="" id="">
+                        <img src="./Assets/icons8-eliminar.svg" alt="" class="cerrar-details5">
+                    </div>
+            </div>
+
+            <div class="cards-container">
+
+            <div class="portafolio-cards">
+                <img src="./Assets/gjkdrtg.png" alt="" class="img-por">
+                <h3>MOKEPON</h3>
+                <span class="detalle-cards">
+                    Details
+                    <img src="./Assets/icons8-flecha-30.png" alt="" class="flecha-abrir-details1">
+                </span>
+            </div>
+            
+            <div class="portafolio-cards">
+                <img src="./Assets/tienda-virtual.png" alt="" class="img-por">
+                <h3>TIENDA VIRTUAL</h3>
+                <span class="detalle-cards">
+                    Details
+                    <img src="./Assets/icons8-flecha-30.png" alt="" class="flecha-abrir-details2">
+                </span>
+            </div>
+            <div class="portafolio-cards">
+                <img src="./Assets/pag-wix.png" alt="" class="img-por">
+                <h3>PAGINA EN WIX</h3>
+                <span class="detalle-cards">
+                    Details
+                    <img src="./Assets/icons8-flecha-30.png" alt="" class="flecha-abrir-details3">
+                </span>
+            </div>
+            <div class="portafolio-cards">
+                <img src="./Assets/coming-5942155_1280.jpg" alt="" class="img-por">
+                <h3>xxxx</h3>
+                <span class="detalle-cards">
+                    Details
+                    <img src="./Assets/icons8-flecha-30.png" alt="" class="flecha-abrir-details4">
+                </span>
+            </div>
+            <div class="portafolio-cards">
+                <img src="./Assets/coming-5942155_1280.jpg" alt="" class="img-por">
+                <h3>xxxx</h3>
+                <span class="detalle-cards">
+                    Details
+                    <img src="./Assets/icons8-flecha-30.png" alt="" class="flecha-abrir-details5">
+                </span>
+            </div>
+    </section>
+
+    <section id="" class="contacts">
+        <h2>Contact Me</h2>
+        <div class="formulario">
+            <form action="" class="form">
+                <div class="input-label">
+                    <label for="name" class="label">Name</label>
+                    <input type="text" id="nombre" placeholder="Firulais" class="input input-name">
+                    <label for="name" class="label">Email</label>
+                    <input type="text" id="email" placeholder="firu@example.com" class="input input-email">
+                    <label for="name" class="label">Phone</label>
+                    <input type="text" id="phone" placeholder="12345678" class="input input-phone">
+                    <label for="name" class="label">Message</label>
+                    <input type="text" id="mensaje" placeholder="Escriba aqui" class="input input-mensaje">
+                </div>
+                <input type="submit" value="Send" class="boton-send login-boton">
+            </form>
+        </div>
+    </section>
+    
+    <footer class="footer" id="">
+        <div class="footer-div">
+            <p class="footer-div-p">© Diego Camargo. All right reserved</p>
+        </div>
+    </footer>
+
+    <script src="./src/index.js"></script>    
+</body>
+</html>

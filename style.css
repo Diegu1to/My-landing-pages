@@ -1,0 +1,1002 @@
+@import url('https://fonts.googleapis.com/css2?family=Anton&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Anton&family=Space+Mono&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
+
+
+* {
+    list-style: none;
+    box-sizing: border-box;
+}
+
+
+
+/* body {
+    width: 100%;
+    height: 100%;
+    background-image: linear-gradient(
+    to bottom,
+    rgba(25, 0, 255, 0.74),
+    rgba(39, 221, 130, 0.5)), url("https://i.pinimg.com/564x/cf/9a/e8/cf9ae8ca689a12b0f30b48098b72f106.jpg");
+    background-size: contain;
+    margin: 0;
+}  */
+
+body {
+    position: relative;
+    background-image: linear-gradient( rgb(46 2 8 / 21%), rgb(253 39 39 / 16%)),
+        url(Assets/pexels-michael-villanueva-13211898.jpg);
+        background-position: center center;
+        background-repeat: no-repeat;
+        background-size: cover;
+        font-family: 'Space Mono', monospace;
+}
+
+.inactive {
+    display: none;
+}
+
+/* BARRA DE MENU */
+
+nav {
+    width: 100%;
+    position: fixed;
+    top: 0;
+    left: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 0 5%;
+    height: 100px;
+    border-bottom: 1px solid #c1b1788c;
+    background-color: rgb(42 25 12);
+}
+
+.img-menu-mobile {
+    display: none;
+}
+
+.mobile-menu {
+    position: fixed;
+    top: 100px;
+    width: 100%;
+    padding: 24px;
+    background-color: rgb(42 25 12);
+    height: 100%;
+
+}
+
+.icon-close {
+    margin-left: 80%;
+    cursor: pointer;
+}
+
+.btn-login-mobile a {
+    padding: 10px 14px;
+    border-radius: 26px;
+    background-color: #ff2258;
+}
+
+.mobile-menu a {
+    text-decoration: none;
+    color: #f2f2f2;
+    font-size: 23px;   
+    margin: 0 13px;
+    font-weight: 600;
+}
+
+.mobile-menu ul li {
+    margin-bottom: 30px;
+}
+
+.logo {
+    height: 90px;
+}
+
+.barnav {
+    display: flex;
+    align-items: center;
+}
+
+.items {
+    margin-left: 84px;
+    padding: 0px;
+    margin-top: 6px;
+    display: flex;
+    align-items: center;
+    height: 60px;
+}
+
+.item a {
+    text-decoration: none;
+    text-align: center;
+    margin: 0 13px;
+    font-size: 23px;
+    font-weight: 600;
+    cursor: pointer;
+    color: #f2f2f2;
+    text-decoration: none;
+    position: relative;
+}
+
+.item a:hover {
+    color: #a1082e;
+    border: dotted;
+}
+
+.btn-login {
+    padding: 10px 24px;
+    border-radius: 30px;
+    background-color: #ff2258;
+    color: #f2f2f2;
+    font-weight: 600;
+    cursor: pointer;
+    margin-right: 68%;
+}
+
+.btn-login a {
+    text-decoration: none;
+    color: #f2f2f2;
+}
+
+.btn-login:hover {
+    background-color: #a1082e;
+}
+
+/* barra-inicio {
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    margin-bottom: 60px;
+    margin-left: -7px;
+    margin-top: -8px;
+}
+
+menu-opciones {
+    display: flex;
+    justify-content: space-around;
+}
+
+menu-opciones ul {
+    list-style: none;
+    padding: 0;
+    margin: 0;
+    display: flex;
+    align-items: center;
+    height: 60px;    
+}
+
+menu-opciones ul li {
+    text-decoration: none;
+    padding: 12px;
+    border-radius: 8px;
+    font-family: 'Anton', sans-serif;
+    margin: 10px;
+} */
+
+
+/* INICIO */
+
+
+#inicio h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 122px;
+    color: whitesmoke;
+   /* position: absolute; */
+    opacity: 1;
+    user-select: none;
+}
+
+#inicio h2:hover {
+    color: #f5003d;
+}
+
+.informacion {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 332px);
+    gap: 180px;
+    margin-left: 13%;
+}
+
+#photo-perfil {
+    display: grid;
+}
+
+/*#photo-perfil img {
+    width: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 55px;
+    margin-left: 40%;
+} */
+
+.photo-inactive1 img {
+    width: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 55px;
+    margin-left: 40%;
+}
+
+.photo-inactive2 img {
+    width: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 55px;
+    margin-left: 40%;
+}
+
+.photo-inactive3 img {
+    width: 340px;
+    object-fit: cover;
+    border-radius: 20px 20px 20px 20px;
+    margin-top: 55px;
+    margin-left: 40%;
+}
+
+.points {
+    display: flex;
+    margin-top: 10px;
+    justify-content: flex-end
+}
+
+.points-active1, .points-active2, .points-active3 {
+    width: 13px;
+    height: 13px;
+    margin-left: 18px;
+    border-radius: 50%;
+    list-style-type: none;
+    cursor: pointer;
+    background-color: #510b6d;
+}
+
+.points li:hover {
+    background: black;
+}
+
+.points > .points-active3 {
+    background: black;
+}
+
+.container-principal p {
+    margin-bottom: 55px;
+    user-select: none;
+}
+
+.texto {
+    margin-top: 22%;
+    margin-left: 3%;
+}
+
+#inicio h1 {
+    font-family: 'Space Mono', monospace;
+    color: floralwhite;
+    user-select: none;
+}
+
+#inicio p {
+    font-family: 'Space Mono', monospace;
+    color: floralwhite;
+}
+
+.button {
+    margin-top: -38px;
+    background-color: #510b6d;
+    text-decoration: none;
+    margin-right: 50px;
+    padding: 12px;
+    border-radius: 0.75rem;
+    margin-bottom: 25px;
+    color: floralwhite;
+    font-size: 20px;
+}
+
+.button:hover {
+    background-color: black;
+}
+
+.info {
+    display: flex;
+    margin-top: 40%;
+}
+
+.info .contactos img {
+    width: 20px;
+    border-radius: 20px 20px 20px 20px;
+}
+
+.contactos {
+    display: grid;
+    margin: 13px;
+    color: floralwhite;
+    user-select: none;
+}
+
+
+
+/* PERFIL */
+
+#Perfil h2 {
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin: 180px;
+    color: whitesmoke;
+    user-select: none;
+}
+
+#Perfil h2:hover {
+    color: #f5003d;
+}
+
+.acerca_de_mi_container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 315px);
+    gap: 26px;
+    margin-left: 18%;
+}
+
+.acerca_de_mi_container-1 {
+    
+}
+
+.detalles-texto h3 {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    font-size: 23px;
+    user-select: none;
+    color: aliceblue;
+}
+
+.detalles-texto p {
+    font-family: 'Space Mono', monospace;
+    text-align: center;
+    font-size: 19px;
+    user-select: none;
+    color: floralwhite;
+}
+
+.detalles-texto p:hover {
+    color: #67ffce;
+}
+
+.detalles-perfil {
+    
+}
+
+.detalles-texto {
+    
+}
+
+#perfil .logo-css h3 .logo-js h3 .logo-backend h3 {
+    font-size: 40px;
+    margin: 63px;
+}
+
+#perfil .logo-js h3 {
+    font-size: 40px;
+    margin: 63px;
+}
+
+.casillas {
+    margin-left: 35px;
+    display: flex;
+    margin-top: 59%;
+}
+
+.casilla-aprobado {
+    display: grid;
+    column-gap: 1rem;
+    justify-items: center;
+    align-items: center;
+    margin: 6px;
+}
+
+.casilla-aprobado img {
+    width: 40%;
+}
+
+.casilla-aprobado img:active {
+    transform: rotate(90deg);
+}
+
+.logo-css {
+    background-color: #510b6d;
+    padding: 0px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+}
+
+.logo-js {
+    background-color: #510b6d;
+    padding: 0px 30px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+}
+
+.logo-backend {
+    background-color: #510b6d;
+    padding: 2px 14px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+}
+
+.logo-excel {
+    background-color: #510b6d;
+    padding: 0px 22px;
+    border-radius: 10px;
+    cursor: pointer;
+    border: 0;
+}
+
+.logo-css:hover {
+    background-color: black;
+}
+
+.logo-js:hover {
+    background-color: black;
+}
+
+.logo-backend:hover {
+    background-color: black;
+}
+
+.logo-excel:hover {
+    background-color: black;
+}
+
+.logo-css img {
+    margin-top: 7px;
+    width: 43px;
+    object-fit: cover;
+}
+
+.logo-js img {
+    margin-top: 7px;
+    width: 41px;
+    object-fit: cover; 
+}
+
+.logo-backend img {
+    margin-top: 7px;
+    width: 43px;
+    object-fit: cover; 
+}
+
+.logo-excel img {
+    margin-top: 7px;
+    width: 43px;
+    object-fit: cover; 
+}
+
+.logo-css h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    margin-top: 8%;
+    color: floralwhite;
+}
+
+.logo-js h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    margin-top: 15%;
+    color: floralwhite;
+}
+
+.logo-backend h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 17px;
+    margin-top: 11%;
+    color: floralwhite;
+}
+
+.logo-excel h3 {
+    font-family: 'Space Mono', monospace;
+    font-size: 20px;
+    margin-top: 11%;
+    color: floralwhite;
+}
+
+.cursos-plz1 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 183%);
+    gap: 6px;
+    margin-left: 38%;
+}
+
+.cursos-plz2 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 183%);
+    gap: 6px;
+    margin-left: 38%;
+}
+
+.cursos-plz3 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 183%);
+    gap: 6px;
+    margin-left: 38%;
+}
+
+.cursos-plz4 {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 183%);
+    gap: 6px;
+    margin-left: 38%;
+}
+
+
+#css {
+    margin-top: 4%;
+}
+
+#css img {
+    width: 40%;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 8px;
+    margin: 5px;
+}
+
+#js {
+    margin-top: 4%;
+}
+
+#js img {
+    width: 40%;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 8px;
+    margin: 5px;
+}
+
+#backend {
+    margin-top: 4%;
+}
+
+#excel {
+    margin-top: 4%;
+}
+
+#backend img {
+    width: 40%;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 8px;
+    margin: 5px;
+}
+
+#excel img {
+    width: 40%;
+    border-radius: 10px 10px 10px 10px;
+    margin-bottom: 8px;
+    margin: 5px;
+}
+
+
+
+/* PORTAFOLIO */
+
+#portafolio {
+    padding: 20px;
+
+}
+
+#portafolio h2 {
+    font-size: 40px;
+    margin: 100px;
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    user-select: none;
+}
+
+#portafolio h2:hover {
+    color: #f5003d; 
+}
+
+.portafolio-cards {
+    width: 318px;
+    background-color: #510b6d;
+    padding: 1rem;
+    border-radius: 0.5rem;
+}
+
+.portafolio-cards:hover {
+    background-color: black;
+}
+
+.portafolio-cards .img-por {
+    max-width: 100%;
+    height: auto;
+    border-radius: 14px;
+    object-fit: cover;
+}
+
+.portafolio-cards h3 {
+    margin-top: 5px;
+    margin-bottom: -7px;
+    font-size: 17px;
+    color: floralwhite;
+}
+
+.cerrar-details1 {
+    width: 43px;
+    cursor: pointer;
+}
+
+.cerrar-details2 {
+    width: 43px;
+    cursor: pointer;
+}
+
+.cerrar-details3 {
+    width: 43px;
+    cursor: pointer;
+}
+
+.cerrar-details4 {
+    width: 43px;
+    cursor: pointer;
+}
+
+.cerrar-details5 {
+    width: 43px;
+    cursor: pointer;
+}
+
+.cerrar-details:hover {
+    width: 48px;
+}
+
+.detail-portafolio, .detail-portafolio1, .detail-portafolio2, 
+.detail-portafolio3, .detail-portafolio4, .detail-portafolio5 {
+    display: flex;
+    margin-top: 2%;
+    position: absolute;
+    background-color: #510b6d;
+    padding: 22px;
+    justify-items: center;
+    width: 94%;
+    height: 13%;
+    visibility: visible;
+    transition: .3s;
+}
+
+.img-detail-portafolio {
+    width: 46%;
+    height: 48%;
+    border-radius: 15px;
+    margin-top: 51px;
+    object-fit: cover;
+    margin-left: 60px;
+}
+
+.text-detail-portafolio {
+    margin-left: 35px;
+    margin-top: 7%;
+}
+
+.text-detail-portafolio h3 {
+    color: #f2f2f2;
+}
+
+.text-detail-portafolio p {
+    color: floralwhite;
+}
+
+.text-detail-portafolio span {
+    color: floralwhite;
+}
+
+.text-detail-portafolio a {
+    margin-left: 22px;
+    color: #ebce7d;
+}
+
+.text-detail-portafolio a:hover {
+    color: #6be75c;
+}
+
+.cards-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, 315px);
+    gap: 26px;
+    place-content: center;
+    margin-top: 20px;
+}
+
+.detalle-cards {
+    display: flex;
+    align-items: center;
+    color: mediumspringgreen;
+}
+
+.detalle-cards img {
+    margin-left: 10px;
+    width: 33px;
+    cursor: pointer;
+    margin-top: 1px;
+} 
+
+.detalle-cards img:hover {
+    margin-left: 15px;
+}
+
+
+/*Contactame*/
+
+.contacts h2 {
+    color: whitesmoke;
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
+    margin-top: 14%;
+    margin-bottom: 14%;
+    user-select: none;
+}
+
+.contacts h2:hover {
+    color: #f5003d; 
+}
+
+.formulario {
+    display: grid;
+    justify-items: center;
+}
+
+.form {
+    background-color: black;
+    width: 56%;
+    padding: 18px;
+    border-radius: 22px;
+}
+
+.form div {
+    display: grid;
+    flex-direction: column;
+}
+
+.label {
+    font-size: 20px;
+    font-weight: bold;
+    margin-top: 4px;
+}
+
+.input {
+    background-color: #f2f2f2;
+    border: none;
+    border-radius: 8px;
+    height: 30px;
+    font-size: 16px;
+    padding: 6px;
+    margin-bottom: 12px;
+}
+
+.input-mensaje {
+    width: 100%;
+    height: 156px;
+    margin-bottom: 22px;
+}
+
+.input-name, .input-email, .input-phone {
+    margin-bottom: 22px;
+    width: 100%;
+    height: 48px;
+}
+
+.boton-send {
+    color:#f2f2f2;
+    background-color: #510b6d;
+    border-radius: 8px;
+    border: none;
+    width: 100%;
+    cursor: pointer;
+    font-size: 16px;
+    font-weight: bold;
+    height: 50px;
+}
+
+.boton-send:hover {
+    background-color: #a240d3;
+}
+
+.login-boton {
+    margin-top: 14px;
+    margin-bottom: 30px;
+}
+
+/*FOOTER*/
+
+.footer {
+    padding-top: 2rem;
+}
+
+.footer-div {
+    padding: 25px;
+}
+
+.footer-div-p {
+    text-align: center;
+    font-size: 16px;
+    font-weight: bold;
+    margin-bottom: -16px;
+}
+
+.footer-div-p:hover {
+    color: #510b6d;
+}
+
+
+@media (max-width:850px) {
+
+    .img-menu-mobile {
+        cursor: pointer;
+        display: block;
+        margin-right: 48%;
+        position: absolute;
+    }
+
+    .informacion {
+        grid-template-columns: repeat(auto-fill, 280px);
+        gap: 1px;
+        place-content: center;
+    }
+
+    .logo {
+        margin-left: 50%;
+    }
+
+    .mobile-menu ul {
+       margin-left: 28%;
+       font-size: 23px;
+    }
+
+    .items {
+        display: none;
+    }
+
+    #inicio {
+        padding-top: 10%;
+    }
+    
+    #photo-perfil img {
+        width: 100%;
+        margin-left: -27px;
+    }
+
+    .points {
+        margin-right: 122px;
+    }
+
+    .container-principal {
+        display: grid;
+    }    
+    
+    .button {
+        margin-right: 0;
+    }
+
+    .info {      
+        margin-right: 0;
+        margin-left: 0;
+        margin-top: 11%;
+        flex-direction: column;
+    }
+
+    .acerca_de_mi_container {
+        grid-template-columns: repeat(auto-fill, 237px);
+        gap: 1px;
+        place-content: center;
+        margin: 29px;
+    }
+
+    .casillas {
+        margin-left: -74px;
+        margin-right: 0px;
+    }
+
+    .casilla-aprobado {
+        margin: 2px;
+    }
+
+    .casilla-aprobado img {
+        margin-top: 0;
+    }
+
+    .logo-css {
+        padding: 0px 25px;
+    }
+
+    .logo-js {
+        padding: 0px 25px;
+    }
+
+    .logo-backend {
+        padding: 2px 9px;
+    }
+
+    .logo-excel {
+        padding: 0px 15px;
+    }
+
+    #css, #js, #backend, #excel {
+        width: 105%;
+        margin-left: 5px;
+    } 
+
+    .cursos-plz1, .cursos-plz2, .cursos-plz3, .cursos-plz4 {
+        grid-template-columns: repeat(auto-fill, 237%);
+        gap: 1px;
+        margin: 29px;
+    }
+
+    .detalles-texto {
+        margin-bottom: 7%;
+    }
+
+    .portafolio-cards {
+       padding: 1rem;
+    }
+
+    #Perfil {
+        margin: 20px;
+    }
+
+    .form {
+        width: auto;
+    }
+
+    .detail-portafolio1 {
+        height: auto;
+        flex-direction: column;
+        margin-top: -9%;
+        margin-left: -2%;
+    }
+
+    .detail-portafolio2 {
+        height: auto;
+        flex-direction: column;
+        margin-top: 26%;
+        margin-left: -2%;
+    }
+
+    .detail-portafolio3 {
+        height: auto;
+        flex-direction: column;
+        margin-top: 85%;
+        margin-left: -2%;
+    }
+
+    .detail-portafolio4 {
+        height: auto;
+        flex-direction: column;
+        margin-top: 150%;
+        margin-left: -2%;
+    }
+
+    .detail-portafolio5 {
+        height: auto;
+        flex-direction: column;
+        margin-top: 219%;
+        margin-left: -2%;
+    }
+
+}
+
+@media (min-width:851px) {
+    .mobile-menu {
+        display: none;
+    }
+
+    
+}
+
+@media (min-width:570px) {
+    #photo-perfil img {
+        
+    }
+}
