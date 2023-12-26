@@ -824,6 +824,7 @@ menu-opciones ul li {
     font-size: 16px;
     font-weight: bold;
     margin-bottom: -16px;
+    user-select: none;
 }
 
 .footer-div-p:hover {
