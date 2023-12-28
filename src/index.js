@@ -390,12 +390,12 @@ function togglePhotoOne() {
 
     if (!puntosPerfil) {
         fotoPerfil2.classList.add("inactive");
-        pointsFoto2.style.backgroundColor = "#510b6d";
+        pointsFoto2.style.backgroundColor = "#f5c826";
     }
 
     if (!puntosPerfil1) {
         fotoPerfil3.classList.add("inactive");
-        pointsFoto3.style.backgroundColor = "#510b6d";
+        pointsFoto3.style.backgroundColor = "#f5c826";
     }
 
 
@@ -410,12 +410,12 @@ function togglePhotoTwo() {
 
     if (!puntosPerfil) {
         fotoPerfil3.classList.add("inactive");
-        pointsFoto3.style.backgroundColor = "#510b6d";
+        pointsFoto3.style.backgroundColor = "#f5c826";
     }
 
     if (!puntosPerfil1) {
         fotoPerfil1.classList.add("inactive");
-        pointsFoto1.style.backgroundColor = "#510b6d";
+        pointsFoto1.style.backgroundColor = "#f5c826";
     }
 
 
@@ -430,12 +430,12 @@ function togglePhotoThree() {
 
     if (!puntosPerfil) {
         fotoPerfil2.classList.add("inactive");
-        pointsFoto2.style.backgroundColor = "#510b6d";
+        pointsFoto2.style.backgroundColor = "#f5c826";
     }
 
     if (!puntosPerfil1) {
         fotoPerfil1.classList.add("inactive");
-        pointsFoto1.style.backgroundColor = "#510b6d";
+        pointsFoto1.style.backgroundColor = "#f5c826";
     }
 
 

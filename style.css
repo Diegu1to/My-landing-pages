@@ -31,6 +31,22 @@ body {
         font-family: 'Space Mono', monospace;
 }
 
+body::-webkit-scrollbar {
+    width: 11px;
+    background: #67ffce;
+}
+
+body::-webkit-scrollbar-thumb {
+    background: #898b15;
+    border-radius: 50px;
+    cursor: pointer;
+}
+
+body::-webkit-scrollbar-thumb:hover {
+    background: #62633e;
+}
+
+
 .inactive {
     display: none;
 }
@@ -248,7 +264,7 @@ menu-opciones ul li {
     border-radius: 50%;
     list-style-type: none;
     cursor: pointer;
-    background-color: #510b6d;
+    background-color: #f5c826;
 }
 
 .points li:hover {
